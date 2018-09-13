@@ -8,11 +8,11 @@ class Favorites extends Component {
     }
 
     addToCart1(){
-        alert(this.props.name);
+        alert(this.props.name+' | '+this.props.price);
     }
 
     addToCart2 = () => {
-        alert(this.props.name);
+        alert(this.props.name+' | '+this.props.price);
     }
 
     render() {
