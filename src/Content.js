@@ -71,8 +71,8 @@ class Content extends Component {
     }
 
     render() {
-        let elements = this.state.product.map((product, index) => {
-            let result = '';
+        var elements = this.state.product.map((product, index) => {
+            var result = '';
             if(product.status){
                 result =    <Product 
                                 key={product.id}
@@ -82,11 +82,11 @@ class Content extends Component {
             }
             return result;
         });
-        let elementsTable = this.state.product.map((product, index) => {
+        var elementsTable = this.state.product.map((product, index) => {
             return  <tr key={index}>
                         <td>{product.id}</td>
                         <td>{product.name}</td>
-                                <td>{product.price}</td>
+                        <td>{product.price}</td>
                     </tr>
         });
         return (

@@ -7,7 +7,7 @@ class User extends Component {
         }
     }
     render() {
-        let user = {
+        var user = {
             name: 'Lê Bá Thanh Tuấn',
             email: 'lebathanhtuan@gmail.com',
             status: true

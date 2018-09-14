@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Favorites extends Component {
     render() {
-        let product = [
+        var product = [
             {
                 id: 1,
                 name: 'Xiaomi Mi Mix',
@@ -19,7 +19,7 @@ class Favorites extends Component {
                 price: 9990000
             }
         ];
-        let elements = product.map((product, index) => {
+        var elements = product.map((product, index) => {
             return  (
                 <div key={product.id}>
                     <h4>Tên sản phẩm: {product.name}</h4>
